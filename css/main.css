@@ -1,6 +1,19 @@
     .navbar {
         opacity: 0.85;
+        padding: 5px 0;
+        font-size: 14px;
     }
+    .navbar-inverse{
+  background-color: black;
+  border-color: black !important;
+}
+
+.navbar-inverse .navbar-brand{
+  color: #cccccc;
+}
+.navbar-inverse .navbar-nav > li > a{
+  color: #cccccc;
+}
 .blog-pager{
   margin-top: 40px;
 }
@@ -31,17 +44,7 @@ margin-left: -162px;
   padding-top:20px;
 }
 
-.navbar-inverse{
-  background-color: black;
-  border-color: black !important;
-}
 
-.navbar-inverse .navbar-brand{
-  color: #cccccc;
-}
-.navbar-inverse .navbar-nav > li > a{
-  color: #cccccc;
-}
 .footer-section{
   margin-bottom:30px;
 }
