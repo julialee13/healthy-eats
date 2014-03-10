@@ -432,7 +432,6 @@ overflow: hidden;
 
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
-  color: #262626;
   text-decoration: none;
   background-color: #DCDCDC;
 }
