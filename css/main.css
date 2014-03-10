@@ -1,3 +1,20 @@
+@media(min-width:767px) {
+    .navbar {
+        padding: 10px 0;
+        opacity: 0.98;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        /* Customize the look and feel of the collapsed top nav here */
+        padding: 0;
+    }
+}
+
+
+
 .footer-section{
   margin-bottom:30px;
 }
@@ -7,7 +24,6 @@
 .footer-directory{
   margin-left:100px;
 }
-
 
 .navbar-brand-header{
   float:left !important;
@@ -25,7 +41,6 @@ li, ul{
 }
 #copyright{
 padding: 15px 0 15px;
-padding-left: 47px;
 background: #1a1a1a;
 color: #777777;
 font-size:13px;
@@ -43,11 +58,10 @@ padding-top:19px;
 }
 
 .footer-additional-padding{
-  margin-top:60px;
 }
 
 footer {
-  margin-top:20px;
+
   width:100%;
   background-color: #222222;
   border-bottom: 1px solid #333;
@@ -55,7 +69,9 @@ footer {
   padding-top:40px;
   padding-bottom:40px;
 }
-
+.zero-space-font{
+  font-size: 0;
+}
 
 .full {
   background: url(../img/wood-grayscale.png) no-repeat center center; 
@@ -105,9 +121,7 @@ footer {
   font-size:150px;
 }
 
-.navbar-brand{
-  float:none;
-}
+
 .section {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -150,7 +164,7 @@ footer {
 /* BOOTSTRAP 3.x GLOBAL STYLES
 -------------------------------------------------- */
 body {
-  padding-top: 50px;
+  padding-top: 70px;
   color: #5a5a5a;
 }
 .page-header{
@@ -256,8 +270,15 @@ min-height: 500px; /* <--- Change this line to min-height */
   margin-left: 10px;
   margin-right: 10px;
 }
+#wrapper{
+  background-color: blue;
+  padding: 300px;
+}
 
-
+#video_background{
+padding-top:80px;
+z-index: -100; width: 100%;
+}
 /* Featurettes
 ------------------------- */
 
